@@ -222,52 +222,22 @@ export const dummyCourses = [
         "courseDescription": "<h2>Learn the Basics of Digital Literacy</h2><p>Learn the foundational skills required to operate computers, smartphones, and digital tools..</p><p>This course is perfect for beginners who want to start their journey in Digital Literacy. ",
         "coursePrice": 2499.99,
         "isPublished": true,
-        "discount": 20,
+        "discount": 10,
         "courseContent": [
             {
                 "chapterId": "chapter1",
                 "chapterOrder": 1,
                 "chapterTitle": "Getting Started with Digital Literacy",
                 "chapterContent": [
-                    {
-                        // "lectureId": "lecture1",
-                        // "lectureTitle": "What is JavaScript?",
-                        // "lectureDuration": 16,
-                        // "lectureUrl": "https://youtu.be/CBWnBi-awSA",
-                        // "isPreviewFree": true,
-                        // "lectureOrder": 1
-                    },
-                    {
-                        // "lectureId": "lecture2",
-                        // "lectureTitle": "Setting Up Your Environment",
-                        // "lectureDuration": 19,
-                        // "lectureUrl": "https://youtu.be/4l87c2aeB4I",
-                        // "isPreviewFree": false,
-                        // "lectureOrder": 2
-                    }
+                    
+                    
                 ]
             },
             {
                 "chapterId": "chapter2",
                 "chapterOrder": 2,
-                "chapterTitle": "Variables and Data Types",
+                "chapterTitle": " Basic computer skills",
                 "chapterContent": [
-                    {
-                    //     "lectureId": "lecture3",
-                    //     "lectureTitle": "Understanding Variables",
-                    //     "lectureDuration": 20,
-                    //     "lectureUrl": "https://youtu.be/pZQeBJsGoDQ",
-                    //     "isPreviewFree": true,
-                    //     "lectureOrder": 1
-                     },
-                    {
-                        // "lectureId": "lecture4",
-                        // "lectureTitle": "Data Types in JavaScript",
-                        // "lectureDuration": 10,
-                        // "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
-                        // "isPreviewFree": false,
-                        // "lectureOrder": 2
-                    }
                 ]
             }
         ],
@@ -300,47 +270,15 @@ export const dummyCourses = [
             {
                 "chapterId": "chapter1",
                 "chapterOrder": 1,
-                "chapterTitle": "Advanced Data Structures",
-                "chapterContent": [
-                    {
-                        // "lectureId": " lecture1",
-                        // "lectureTitle": "Lists and Tuples",
-                        // "lectureDuration": 720,
-                        // "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
-                        // "isPreviewFree": true,
-                        // "lectureOrder": 1
-                    },
-                    {
-                        // "lectureId": "lecture2",
-                        // "lectureTitle": "Dictionaries and Sets",
-                        // "lectureDuration": 850,
-                        // "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
-                        // "isPreviewFree": false,
-                        // "lectureOrder": 2
-                    }
+                "chapterTitle": "English speaking",
+                "chapterContent": [                
                 ]
             },
             {
                 "chapterId": "chapter2",
                 "chapterOrder": 2,
-                "chapterTitle": "Object-Oriented Programming",
+                "chapterTitle": "professional communication",
                 "chapterContent": [
-                    {
-                        // "lectureId": "lecture3",
-                        // "lectureTitle": "Classes and Objects",
-                        // "lectureDuration": 900,
-                        // "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
-                        // "isPreviewFree": true,
-                        // "lectureOrder": 1
-                    },
-                    {
-                        // "lectureId": "lecture4",
-                        // "lectureTitle": "Inheritance and Polymorphism",
-                        // "lectureDuration": 950,
-                        // "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
-                        // "isPreviewFree": false,
-                        // "lectureOrder": 2
-                    }
                 ]
             }
         ],
@@ -373,47 +311,15 @@ export const dummyCourses = [
             {
                 "chapterId": "chapter1",
                 "chapterOrder": 1,
-                "chapterTitle": "HTML & CSS Basics",
+                "chapterTitle": "financial planning",
                 "chapterContent": [
-                    {
-                        // "lectureId": "lecture1",
-                        // "lectureTitle": "Introduction to HTML",
-                        // "lectureDuration": 600,
-                        // "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        // "isPreviewFree": true,
-                        // "lectureOrder": 1
-                    },
-                    {
-                        // "lectureId": "lecture2",
-                        // "lectureTitle": "Styling with CSS",
-                        // "lectureDuration": 720,
-                        // "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        // "isPreviewFree": false,
-                        // "lectureOrder": 2
-                    }
                 ]
             },
             {
                 "chapterId": "chapter2",
                 "chapterOrder": 2,
-                "chapterTitle": "JavaScript Fundamentals",
+                "chapterTitle": "basic accounting",
                 "chapterContent": [
-                    {
-                        // "lectureId": "lecture3",
-                        // "lectureTitle": "JavaScript Basics",
-                        // "lectureDuration": 800,
-                        // "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        // "isPreviewFree": true,
-                        // "lectureOrder": 1
-                    },
-                    {
-                        // "lectureId": "lecture4",
-                        // "lectureTitle": "DOM Manipulation",
-                        // "lectureDuration": 850,
-                        // "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        // "isPreviewFree": false,
-                        // "lectureOrder": 2
-                    }
                 ]
             }
         ],
@@ -439,47 +345,15 @@ export const dummyCourses = [
             {
                 "chapterId": "chapter1",
                 "chapterOrder": 1,
-                "chapterTitle": "Cloud Fundamentals",
+                "chapterTitle": "managing small business",
                 "chapterContent": [
-                    {
-                        // "lectureId": "lecture1",
-                        // "lectureTitle": "What is Cloud Computing?",
-                        // "lectureDuration": 600,
-                        // "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        // "isPreviewFree": true,
-                        // "lectureOrder": 1
-                    },
-                    {
-                        // "lectureId": "lecture2",
-                        // "lectureTitle": "Cloud Service Models",
-                        // "lectureDuration": 720,
-                        // "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        // "isPreviewFree": false,
-                        // "lectureOrder": 2
-                    }
                 ]
             },
             {
                 "chapterId": "chapter2",
                 "chapterOrder": 2,
-                "chapterTitle": "Exploring Cloud Platforms",
+                "chapterTitle": "Business ideas planning",
                 "chapterContent": [
-                    {
-                        // "lectureId": "lecture3",
-                        // "lectureTitle": "AWS Basics",
-                        // "lectureDuration": 800,
-                        // "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        // "isPreviewFree": true,
-                        // "lectureOrder": 1
-                    },
-                    {
-                        // "lectureId": "lecture4",
-                        // "lectureTitle": "Introduction to Google Cloud",
-                        // "lectureDuration": 850,
-                        // "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        // "isPreviewFree": false,
-                        // "lectureOrder": 2
-                    }
                 ]
             }
         ],
@@ -504,13 +378,13 @@ export const dummyCourses = [
             {
                 "chapterId": "chapter1",
                 "chapterOrder": 1,
-                "chapterTitle": "Introduction to Cybersecurity",
+                "chapterTitle": "Machine operator basics",
                 "chapterContent": []
             },
             {
                 "chapterId": "chapter2",
                 "chapterOrder": 2,
-                "chapterTitle": "Basic Security Practices",
+                "chapterTitle": "electrician training",
                 "chapterContent": []
             }
         ],

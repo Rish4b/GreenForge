@@ -3,17 +3,17 @@ import { AppContext } from "../../context/AppContext";
 import SearchBar from "../../components/student/SearchBar";
 import { data, useParams } from "react-router-dom";
 import CourseCard from "../../components/student/CourseCard";
-import { assets } from "../../assets/assets";
+import { assets, dummyCourses } from "../../assets/assets";
 import Footer from "../../components/student/Footer";
 
 const CoursesList = () => {
-	const { navigate, allCourses } = useContext(AppContext);
+	const { navigate } = useContext(AppContext);
 	const { input } = useParams();
 	const [filteredCourse, setFilteredcourse] = useState([]);
 
 	useEffect(() => {
-		if (allCourses && allCourses.length > 0) {
-      const tempCourses = allCourses.slice()
+		if (dummyCourses && dummyCourses.length > 0) {
+      const tempCourses = dummyCourses.slice()
 
       input ? 
         setFilteredcourse(
@@ -23,7 +23,7 @@ const CoursesList = () => {
         )
       : setFilteredcourse(tempCourses);
     }
-	}, [allCourses, input]);
+	}, [input]);
 	return (
 		<>
 			<div className="relative md:px-36 px-8 pt-20 text-left">
